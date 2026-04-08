@@ -39,7 +39,8 @@
 &emsp;&emsp;RH-PVCD数据集的图像来源于Google Earth Pro平台，采集了中国多个省份的高分辨率光伏遥感图像。数据时相选取2015年和2025年分别作为T1时相和T2时相，图像空间分辨率为0.24m-0.27m（对应地图缩放级别z20），单张图像尺寸标准化为512×512像素。数据集共包含9608组样本，原始图像提供T1时相和T2时相的JPG和TIF两种格式；标注数据则包含结构化的JSON文本描述文件与可视化的PNG语义掩码文件。
 
 ###  RH-PVCD示例图
-<div align = center><img src='https://github.com/user-attachments/assets/99830397-1926-4cbe-8808-a89ccba9f690'></div>
+<img width="1212" height="648" alt="image" src="https://github.com/user-attachments/assets/11313fd0-9004-4a33-92eb-c107fae2b6c8" />
+
 
 &emsp;&emsp;在语义类别方面，该数据集中划分为“光伏建设”、“光伏拆除”、“光伏保有”及“背景”四个类别。
 
@@ -69,7 +70,8 @@
 &emsp;&emsp;RH-PVCLT数据集的原始图像同样来源于Google Earth Pro平台，采样时间跨度覆盖2015年至2025年，图像空间分辨率为0.24m-0.27m（对应地图缩放级别z20），单张图像尺寸标准化为512×512像素。数据集共包含6033组样本，原始图像提供JPG格式，标注数据则为结构化的JSON文本描述文件。
 
 ###  RH-PVCLT示例图
-<div align = center><img src='https://github.com/user-attachments/assets/99830397-1926-4cbe-8808-a89ccba9f690'></div>
+<img width="420" height="278" alt="fig19-RHPVCLT" src="https://github.com/user-attachments/assets/f310e0df-a537-4dfd-aecc-bf79e5d5bfca" />
+
 
 &emsp;&emsp;在语义类别方面，根据《土地利用现状分类》（GB/T 21010-2017）、《第三次全国国土调查工作分类》及相关研究，如表3.4所示，该数据集将光伏建设前或拆除后的土地类型按照整图标注的方式分为五种类别：裸地、耕地、绿地、水体、建筑。
 
