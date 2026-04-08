@@ -1,5 +1,5 @@
 # RH-PVSeg Dataset
-&emsp;&emsp;鉴于中国在光伏分割任务上基于高分辨率遥感图像的公开数据集较为匮乏，本文构建了一个可扩展的高分辨率遥感图像光伏分割数据集RH-PVSeg。数据集地址：TATAronin/RH-PVSeg-Photovoltaic-segmentation-dataset\
+&emsp;&emsp;鉴于中国在光伏分割任务上基于高分辨率遥感图像的公开数据集较为匮乏，本文构建了一个可扩展的高分辨率遥感图像光伏分割数据集RH-PVSeg。
 &emsp;&emsp;RH-PVSeg数据集包含13836组图像，包含JPG和TIF两种格式的原始图像，以及JSON和PNG两种格式的标签描述。其中，原始图像为含有光伏面板的高分辨率遥感图像。JSON格式文件为结构化纯文本的数据标签，PNG格式文件为标签的可视化图像。RH-PVSeg数据集的标注工作是通过Labelme软件手动标注完成。数据源为Google Earth Pro，数据获取通过SASPlanet软件下载所需位置切片，然后通过Arcgis软件进行切割处理，最后通过分割模型来筛选所含光伏的图像。
 
 ###  RH-PVSeg原图
